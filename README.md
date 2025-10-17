@@ -7,7 +7,7 @@
 ---
 
 ## ลิงก์สรุปโจทย์
---> [ดูรายละเอียดโจทย์ทั้งหมดที่นี่]([https://docs.google.com/document/d/1NJ0t3r2_IicACZdtJZJgJE56HObBKMP5LemH4DckhrY/edit?usp=sharing](https://drive.google.com/drive/folders/1QCHZJjQbVHQ8Nl8VAeomhYKBrTtG_h1l?usp=sharing)
+--> [ดูรายละเอียดโจทย์ทั้งหมดที่นี่](https://docs.google.com/document/d/1NJ0t3r2_IicACZdtJZJgJE56HObBKMP5LemH4DckhrY/edit?usp=sharing](https://drive.google.com/drive/folders/1QCHZJjQbVHQ8Nl8VAeomhYKBrTtG_h1l?usp=sharing)
 
 ---
 
