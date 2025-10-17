@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧠 Test Intern Project – Next.js App Router
 
-## Getting Started
+โปรเจกต์นี้เป็นแบบทดสอบการเขียน Next.js (App Router)  
+สร้างด้วยคำสั่ง `npx create-next-app@Test-inter`  
+ใช้ TypeScript + App Router (`/app` directory)
 
-First, run the development server:
+---
+
+## ลิงก์สรุปโจทย์
+👉 [ดูรายละเอียดโจทย์ทั้งหมดที่นี่](https://docs.google.com/document/d/1NJ0t3r2_IicACZdtJZJgJE56HObBKMP5LemH4DckhrY/edit?usp=sharing)
+
+---
+
+## โจทย์และสิ่งที่ทำ
+
+### 1️ Counter Button
+สร้างปุ่ม “Click me” ที่นับจำนวนครั้งที่คลิก โดยใช้ `useState`.
+
+### 2️ Fruit List
+สร้าง array ของผลไม้ `['Apple', 'Banana', 'Orange']`  
+และแสดงผลเป็น `<ul><li>...</li></ul>` โดยมี `key` ที่เหมาะสม.
+
+### 3️ Alert Button
+เมื่อคลิกปุ่ม ให้ alert ข้อความว่า “Button clicked!”.
+
+### 4️ Blue Box
+สร้าง `<div>` สีพื้นหลังฟ้า (`backgroundColor: 'skyblue'`)  
+และมีข้อความสีขาวด้านใน.
+
+### 5️ Fetch Posts
+ดึงข้อมูลจาก API  
+`https://jsonplaceholder.typicode.com/posts`  
+และแสดง `title` ของโพสต์ พร้อม `loading` และ `error` state.
+
+### 6️ Name Form (with LocalStorage)
+มีช่องกรอกชื่อและปุ่ม Submit  
+เมื่อ Submit ให้แสดงชื่อด้านล่าง  
+และเมื่อรีเฟรช หน้าก็ยังจำชื่อได้.
+
+### 7️ ProductCard (Props + Routing)
+สร้าง Component `ProductCard` ที่รับ `props: title, price, image`  
+แสดงสินค้าทั้งหมด 3 ชิ้นใน layout แบบ Grid (3 คอลัมน์)  
+และเมื่อคลิกจะพาไปหน้า `/product/[id]`.
+
+---
+
+## การรันโปรเจกต์
 
 ```bash
+# ติดตั้ง dependencies
+npm install
+
+# รันเซิร์ฟเวอร์
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# เปิดในเบราว์เซอร์
+http://localhost:3000
