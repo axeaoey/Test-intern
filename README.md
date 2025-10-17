@@ -1,4 +1,4 @@
-# 🧠 Test Intern Project – Next.js App Router
+#  Test Intern Project – Next.js App Router
 
 โปรเจกต์นี้เป็นแบบทดสอบการเขียน Next.js (App Router)  
 สร้างด้วยคำสั่ง `npx create-next-app@Test-inter`  
@@ -7,7 +7,7 @@
 ---
 
 ## ลิงก์สรุปโจทย์
-👉 [ดูรายละเอียดโจทย์ทั้งหมดที่นี่](https://docs.google.com/document/d/1NJ0t3r2_IicACZdtJZJgJE56HObBKMP5LemH4DckhrY/edit?usp=sharing)
+--> [ดูรายละเอียดโจทย์ทั้งหมดที่นี่]([https://docs.google.com/document/d/1NJ0t3r2_IicACZdtJZJgJE56HObBKMP5LemH4DckhrY/edit?usp=sharing](https://drive.google.com/drive/folders/1QCHZJjQbVHQ8Nl8VAeomhYKBrTtG_h1l?usp=sharing))
 
 ---
 
